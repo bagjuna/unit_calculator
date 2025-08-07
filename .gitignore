@@ -36,4 +36,9 @@ out/
 ### VS Code ###
 .vscode/
 
+# .gitignore 파일에서
+# 모든 빈 폴더를 무시하되, .gitkeep이 있는 폴더는 추적
+#**/
+#!**/.gitkeep
+
 *.yml
